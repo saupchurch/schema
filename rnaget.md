@@ -789,9 +789,9 @@ The response to an file query is a JSON object with the following fields:
 | `id`       | string    | Yes      | A unique identifier assigned to this object |
 | `version`  | string    | Optional | Version number of the object |
 | `tags`     | string array | Optional | List of tags for the object |
-| `fileType  | string    | Optional | Type of file.  Examples include: txt, tsv, log |
-| `studyID` | string | Optional | ID of containing study |
-| `URL    ` | string | Yes      | URL to download file |
+| `fileType` | string    | Optional | Type of file.  Examples include: txt, tsv, log |
+| `studyID`  | string    | Optional | ID of containing study |
+| `URL`      | string    | Yes      | URL to download file |
 
 #### An example response
 
@@ -851,9 +851,9 @@ The response to a file search query is a list of JSON objects each with the foll
 | `id`       | string    | Yes      | A unique identifier assigned to this object |
 | `version`  | string    | Optional | Version number of the object |
 | `tags`     | string array | Optional | List of tags for the object |
-| `fileType  | string    | Optional | Type of file.  Examples include: txt, tsv, log |
-| `studyID` | string | Optional | ID of containing study |
-| `URL    ` | string | Yes      | URL to download file |
+| `fileType` | string    | Optional | Type of file.  Examples include: txt, tsv, log |
+| `studyID`  | string    | Optional | ID of containing study |
+| `URL`      | string    | Yes      | URL to download file |
 
 #### An example response
 
