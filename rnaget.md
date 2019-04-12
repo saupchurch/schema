@@ -468,10 +468,18 @@ The response to a study search filter query is a list of JSON objects each with 
 
 ```
 [
-  "version",
-  "tags",
-  "name",
-  "projectID"
+  {
+    filter: "version"
+  },
+  {
+    filter: "tags"
+  },
+  {
+    filter: "name"
+  },
+  {
+    filter: "projectID"
+  }
 ]
 ```
 
