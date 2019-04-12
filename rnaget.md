@@ -276,9 +276,15 @@ The response to a project search filter query is a list of JSON objects each wit
 
 ```
 [
-  "version",
-  "tags",
-  "name"
+  {
+    filter: "version"
+  },
+  {
+    filter: "tags"
+  },
+  {
+    filter: "name"
+  }
 ]
 ```
 
