@@ -710,15 +710,42 @@ The response to an expression search filter query is a list of JSON objects each
 
 ```
 [
-  "version",
-  "sampleID",
-  "projectID",
-  "studyID",
-  "featureIDList",
-  "featureNameList",
-  "featureAccessionList",
-  "minExpression",
-  "maxExpression"
+  {
+    filterType: "general",
+    filters: ["version"]
+  },
+  {
+    filterType: "sample",
+    filters: ["sampleID"]
+  },
+  {
+    filterType: "general",
+    filters: ["projectID"]
+  },
+  {
+    filterType: "general",
+    filters: ["studyID"]
+  },
+  {
+    filterType: "feature",
+    filters: ["featureIDList"]
+  },
+  {
+    filterType: "feature",
+    filters: ["featureNameList"]
+  },
+  {
+    filterType: "feature",
+    filters: ["featureAccessionList"]
+  },
+  {
+    filterType: "general",
+    filters: ["minExpression"]
+  },
+  {
+    filterType: "general",
+    filters: ["maxExpression"]
+  }
 ]
 ```
 
