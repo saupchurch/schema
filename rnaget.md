@@ -57,9 +57,6 @@ Content-Type: application/vnd.ga4gh.rnaget.v1.0.0+json; charset=us-ascii
 
 When responding to a request a server MUST use the fully specified media type for that endpoint. When determining if a request is well-formed, a server MUST allow a internet type to degrade like so
 
-- `text/vnd.ga4gh.rnaget.v1.0.0+plain; charset=us-ascii`
-  - `text/vnd.ga4gh.rnaget.v1.0.0+plain`
-  - `text/plain`
 - `application/vnd.ga4gh.rnaget.v1.0.0+json; charset=us-ascii`
   - `application/vnd.ga4gh.rnaget.v1.0.0+json`
   - `application/json`
